@@ -31,7 +31,7 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '17' # React Native 0.73+ requires Java 17
-          cache: 'gradle'    # Caches Gradle dependencies to speed up builds
+          cache: 'none'    # Caches Gradle dependencies to speed up builds
 
       # 3. Install Dependencies
       - name: Install dependencies
